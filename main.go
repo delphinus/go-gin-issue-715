@@ -39,7 +39,7 @@ func main() {
 
 	for _, p := range v.Guests.Person {
 		if err := validate.Struct(p); err != nil {
-			fmt.Printf("validation2\n:%+v\n\n", err)
+			fmt.Printf("validation2:\n%+v\n\n", err)
 		}
 	}
 }
